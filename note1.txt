@@ -1,0 +1,23 @@
+Q1 (Short Answers – Any 8, 5 Marks Each)
+Answer any 8 of the following (I've provided all for completeness; select as needed).
+• a) Define cyber security.
+Cyber security is the practice of protecting computer systems, networks, and data from unauthorized access, attacks, and damage, using technologies,processes, and policies to ensure confidentiality, integrity, and availability of information.
+• b) Define Cyber crime.
+Cyber crime refers to illegal activities conducted via the internet or digital devices, such as hacking, phishing, or data theft, aimed at financial gain,
+disruption, or harm, often violating laws like the IT Act 2000.
+• c) What is Phishing?
+Phishing is a cyber attack where attackers impersonate trustworthy entities (e.g.,via fake emails or websites) to trick users into revealing sensitive information like passwords or credit card details.
+• d) What is Cyber terrorism?
+Cyber terrorism involves using digital means to intimidate or coerce governments or societies, such as hacking critical infrastructure (e.g., power grids) to cause fear or disruption, often for political motives.
+• e) What is Steganography?
+Steganography is the technique of hiding secret data within ordinary files (e.g., images or audio) to conceal its existence, unlike encryption which makes data unreadable but visible.
+• f) What is reconnaissance?
+Reconnaissance is the initial phase of a cyber attack where attackers gather information about a target (e.g., via social engineering or scanning tools) to identify vulnerabilities without direct engagement.
+• g) Define attack vector.
+An attack vector is the path or method used by attackers to exploit vulnerabilities, such as email attachments, USB drives, or unpatched software, to gain unauthorized access.
+• h) What is denial-of-service (DoS) attack?
+A DoS attack overwhelms a system or network with excessive traffic (e.g., using bots) to make it unavailable to legitimate users, disrupting services like websites.
+• i) What is virus?
+A virus is malicious software that replicates itself and spreads to other files or systems, often causing damage like data corruption or system crashes (e.g., the ILOVEYOU virus).
+• j) What is online fraud?
+Online fraud involves deceptive schemes on the internet, such as fake auctions or identity theft, to obtain money or personal data illegally, often via phishing or fake websites.
