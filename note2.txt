@@ -1,0 +1,32 @@
+Basic NoSQL and MongoDB Concepts
+1. What is NoSQL? Why use NoSQL databases?
+• NoSQL stands for “Not only SQL”; it is a class of databases that store data in non-relational formats such as key-value, document, column-family and graph.
+• They are schema-less or schema-flexible, can easily store semi-structured and unstructured data, and scale horizontally over many servers.
+• Use NoSQL when data volume is very large, structure changes frequently, or applications need high write throughput and low latency (e.g., social networks, logs, IoT).
+2. Need / advantages of NoSQL databases
+• Handle big data: support very high volume, velocity and variety of data.
+• Horizontal scalability: easy sharding and replication across commodity hardware.
+• Flexible schema: documents/records can have different structures, reducing migration effort.
+• High availability and fault tolerance through replication and automatic failover.
+3. Types of NoSQL databases
+• Key–Value stores: data as simple key–value pairs (e.g., Redis).
+• Document databases: JSON-like documents, flexible fields (e.g., MongoDB).
+• Column-family stores: data in column families, optimized for wide tables (e.g., Cassandra).
+• Graph databases: nodes and edges to model relationships (e.g., Neo4j).
+4. What is MongoDB? Any two features.
+• MongoDB is a document-oriented NoSQL database that stores data as BSON documents inside collections.
+• Features:
+o Flexible schema (fields can vary between documents).
+o Rich query language with secondary indexes and aggregation framework.
+o Horizontal scaling using sharding and automatic failover using replica sets.
+5. Difference between NoSQL and SQL / MongoDB and SQL
+• Data model: SQL uses fixed schemas and tables; MongoDB uses collections of flexible JSON-like documents.
+• Joins: SQL databases support joins; MongoDB prefers embedded documents and references with application-side joins.
+• Scaling: SQL systems traditionally scale vertically; MongoDB is designed for horizontal scaling.
+• Transactions: classical RDBMS provide strong ACID across many rows/tables; MongoDB originally focused on document-level atomicity and now supports multi-document transactions but with different trade-offs.
+6. Analogy between RDBMS and MongoDB data model
+• Database (RDBMS) ≈ Database (MongoDB).
+• Table ≈ Collection.
+• Row/Record ≈ Document.
+• Column ≈ Field in a document.
+• Primary key ≈ _id field (unique identifier for each document)
