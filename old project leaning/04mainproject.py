@@ -18,8 +18,9 @@ def listen():
         print("Listening...")
         r.pause_threshold = 1
         audio = r.listen(source)
-    try:
+    try: 
         query = r.recognize_google(audio, language="en-in")
+        
         print("You said:", query)
         return query.lower()
     except:

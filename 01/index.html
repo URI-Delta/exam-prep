@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parallax Effect</title>
+
+<style>
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* MAIN CONTAINER */
+#scroll-animate {
+    overflow-x: hidden;
+}
+
+/* HEADER PARALLAX */
+header {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+/* CONTENT SECTION */
+.content {
+    min-height: 120vh;
+    background: #f2f2f2;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+footer {
+    height: 300px;
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+</style>
+</head>
+
+<body>
+
+<div id="scroll-animate">
+    <header>
+        <h1>Parallax Header</h1>
+    </header>
+
+    <section class="content">
+        <h1>Content Section</h1>
+        <p>
+            This is a smooth parallax scrolling effect using pure HTML, CSS, and JavaScript.
+            The background moves slower than the foreground for a modern UI effect.
+        </p>
+    </section>
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</div>
+
+<script>
+/* OPTIONAL: Smooth scroll-based animation */
+window.addEventListener("scroll", () => {
+    const scrolled = window.scrollY;
+    document.querySelector("header").style.backgroundPositionY =
+        -(scrolled * 0.4) + "px";
+});
+</script>
+
+</body>
+</html>
